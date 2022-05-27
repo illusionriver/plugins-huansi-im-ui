@@ -1,0 +1,62 @@
+{
+  "name": "plugins-huansi-im-ui",
+  "version": "1.0.3",
+  "private": false,
+  "description": "IM 通讯 插件",
+  "license": "MIT",
+  "author": "atwisdom",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name plugins-team-manage --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.26.1",
+    "core-js": "^3.6.5",
+    "lemon-imui": "^1.7.4",
+    "mqtt": "^4.3.7",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-eslint": "~4.5.11",
+    "@vue/cli-plugin-router": "~4.5.10",
+    "@vue/cli-plugin-vuex": "~4.5.10",
+    "@vue/cli-service": "~4.5.11",
+    "babel-eslint": "^10.1.0",
+    "electron": "^18.0.4",
+    "electron-builder": "^23.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "http://47.110.145.204:8085/hs/paas/huansiim/huansiim-ui/issues"
+  },
+  "keywords": [
+    "IM",
+    "通讯",
+    "通讯插件",
+    "IM 通讯插件"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://47.110.145.204:8085/hs/paas/huansiim/huansiim-ui"
+  }
+}

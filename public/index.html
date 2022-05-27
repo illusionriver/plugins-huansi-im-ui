@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    let theme = window.sessionStorage.getItem('APP_THEME')
+    if (theme) {
+        document.body.setAttribute('data-theme', theme)
+    }
+</script>
+<div id="app"></div>
+</body>
+</html>
