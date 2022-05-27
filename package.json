@@ -47,7 +47,7 @@
     "not ie <= 8"
   ],
   "bugs": {
-    "url": "http://47.110.145.204:8085/hs/paas/huansiim/huansiim-ui/issues"
+    "url": "https://github.com/illusionriver/plugins-huansi-im-ui/issues"
   },
   "keywords": [
     "IM",
@@ -57,6 +57,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://47.110.145.204:8085/hs/paas/huansiim/huansiim-ui"
+    "url": "https://github.com/illusionriver/plugins-huansi-im-ui"
   }
 }
